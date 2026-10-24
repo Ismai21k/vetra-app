@@ -8,9 +8,8 @@ import fishImg from "@/assets/sp-fish.jpg";
 import type { ReactNode, SelectHTMLAttributes, InputHTMLAttributes, TextareaHTMLAttributes } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/vetra-logo.jpg.asset.json";
 
-export const logoUrl = logo.url;
+export const logoUrl = "/vetra-logo.jpg";
 
 export function PageHeader({ title, back, action, children }: { title: ReactNode; back?: boolean | undefined; action?: ReactNode | undefined; children?: ReactNode }) {
   const router = useRouter();

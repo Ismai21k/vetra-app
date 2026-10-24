@@ -71,7 +71,7 @@ function AuthPage() {
 
   return (
     <main className="mx-auto min-h-dvh max-w-md px-6 pb-10 pt-8">
-      <Link to="/" className="mx-auto block w-fit"><img src={logoUrl} alt="Vetra" className="h-28 w-28 rounded-2xl object-cover mix-blend-multiply" /></Link>
+      <Link to="/" className="mx-auto block w-fit"><img src={logoUrl} alt="Vetra — Healthier Animals. Stronger Farms." className="h-28 w-28 rounded-2xl object-contain" /></Link>
       <h1 className="mt-4 text-center text-2xl font-bold">
         {mode === "signup" ? t("signup") : mode === "forgot" ? t("forgot") : t("welcomeBack")}
       </h1>

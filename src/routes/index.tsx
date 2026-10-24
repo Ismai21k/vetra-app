@@ -31,7 +31,7 @@ function Welcome() {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col bg-background">
       <div className="flex flex-col items-center px-6 pt-10 text-center">
-        <img src={logoUrl} alt="Vetra" className="h-44 w-44 rounded-3xl object-cover mix-blend-multiply" />
+        <img src={logoUrl} alt="Vetra — Healthier Animals. Stronger Farms." className="h-44 w-44 rounded-3xl object-contain" />
       </div>
       <div className="relative mt-6 min-h-56 flex-1 overflow-hidden">
         <img src={hero} alt="Cattle and goats grazing on a farm" width={1280} height={720} className="absolute inset-0 h-full w-full object-cover" />

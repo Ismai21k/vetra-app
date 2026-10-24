@@ -54,8 +54,7 @@ function AppLayout() {
       {showNav && (
         <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col bg-sidebar p-4 text-sidebar-foreground lg:flex">
           <div className="mb-6 flex items-center gap-3 rounded-xl bg-background p-2">
-            <img src={logoUrl} alt="" className="h-10 w-10 rounded-lg object-cover mix-blend-multiply" />
-            <span className="font-display text-xl font-bold text-primary">Vetra</span>
+            <img src={logoUrl} alt="Vetra — Healthier Animals. Stronger Farms." className="h-16 w-full object-contain" />
           </div>
           <nav className="space-y-1">
             {tabs.map((tab) => (
